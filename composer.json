@@ -1,0 +1,22 @@
+{
+  "name": "sklwebdev/console-lib",
+  "license": "proprietary",
+  "type": "lib",
+  "description": "Console Lib",
+  "autoload": {
+    "psr-4": {
+      "sklwebdev\\Console\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "sklwebdev\\Console\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
